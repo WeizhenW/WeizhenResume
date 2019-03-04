@@ -1,24 +1,18 @@
-body{
+body {
   color: #545759;
-  width: 66%;
-  /*margin:  */
-  margin:auto;
-}
-
-/* define the style of the name block */
-
-h1{
-  font-family: "Arial";
-  text-align: center;
-  width:100%;
-  color:white;
-  background-color: #435f8e;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  font-family: 'Arial', sans-serif;
 }
 
 img{
   border-radius: 25%;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  border: thin solid darkgray;
+  border-radius: 10px;
+  background-color: #e8eaed;
 }
 
 /*define the style of the title of each section (professional experience, education...)  */
@@ -28,7 +22,6 @@ h3{
 
 .prof{
   border: thin solid darkgray ;
-/*padding:top, right, bottom, left */
   padding:5px 20px 5px 20px;
   border-radius: 10px;
   background-color: #e8eaed;
@@ -36,7 +29,6 @@ h3{
 
 .education{
   border: thin solid darkgray;
-/*padding:top, right, bottom, left */
   margin-top: 10px;
   padding:5px 20px 5px 20px;
   border-radius: 10px;
@@ -45,14 +37,12 @@ h3{
 
 .skills{
   border: thin solid darkgray;
-/*padding:top, right, bottom, left */
   margin-top: 10px;
   padding:5px 20px 5px 20px;
   border-radius: 10px;
   background-color: #e8eaed;
 }
 
-/*define the style of the company names  */
 #company{
   font-weight: bold;
 }
