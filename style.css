@@ -1,0 +1,67 @@
+body{
+  color: #545759;
+  width: 66%;
+  /*margin:  */
+  margin:auto;
+}
+
+/* define the style of the name block */
+
+h1{
+  font-family: "Arial";
+  text-align: center;
+  width:100%;
+  color:white;
+  background-color: #435f8e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img{
+  border-radius: 25%;
+}
+
+/*define the style of the title of each section (professional experience, education...)  */
+h3{
+  color:#0960bc;
+}
+
+.prof{
+  border: thin solid darkgray ;
+/*padding:top, right, bottom, left */
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+.education{
+  border: thin solid darkgray;
+/*padding:top, right, bottom, left */
+  margin-top: 10px;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+.skills{
+  border: thin solid darkgray;
+/*padding:top, right, bottom, left */
+  margin-top: 10px;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+/*define the style of the company names  */
+#company{
+  font-weight: bold;
+
+}
+
+th, td {
+  padding-right: 45px;
+}
+
+#prj, #language, #IT {
+  font-weight: bold;
+}
