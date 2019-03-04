@@ -55,7 +55,11 @@ h3{
 /*define the style of the company names  */
 #company{
   font-weight: bold;
+}
 
+#jobtitle{
+  font-style: italic;
+  font-weight: bold;
 }
 
 th, td {
