@@ -1,0 +1,61 @@
+body {
+  color: #545759;
+  font-family: 'Arial', sans-serif;
+}
+
+img{
+  border-radius: 25%;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  border: thin solid darkgray;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+/*define the style of the title of each section (professional experience, education...)  */
+h3{
+  color:#0960bc;
+}
+
+.prof{
+  border: thin solid darkgray ;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+.education{
+  border: thin solid darkgray;
+  margin-top: 10px;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+.skills{
+  border: thin solid darkgray;
+  margin-top: 10px;
+  padding:5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #e8eaed;
+}
+
+#company{
+  font-weight: bold;
+}
+
+#jobtitle{
+  font-style: italic;
+  font-weight: bold;
+}
+
+th, td {
+  padding-right: 45px;
+}
+
+#prj, #language, #IT {
+  font-weight: bold;
+}
